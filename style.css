@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+  
+  #app {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 25vh;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #085515;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #weather {
+    margin-top: 20px;
+  }
